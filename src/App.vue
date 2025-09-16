@@ -1,7 +1,7 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from 'vue' // importa uma função do vue
 
-const contador = ref(0)
+const contador = ref(0) // da um valor a alguma variavel
 
 function incrementarContador() {
   contador.value++
